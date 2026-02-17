@@ -2,7 +2,7 @@
 --Dark-blue: hsl(212, 24%, 26%);
 --Grayish-blue: hsl(211, 10%, 45%);
 --Light-gray: hsl(223, 19%, 93%);
---Very-light: gray: hsl(228, 33%, 97%);
+--Very-light-gray: hsl(228, 33%, 97%);
 --White: hsl(0, 0%, 100%);
 
 --Moderate-blue: hsl(238, 40%, 52%);
@@ -11,15 +11,11 @@
 --Palered: hsl(357, 100%, 86%);
 
 }
+ 
 
-
-
-
-.bg-boost-desktop{
-    width: 100%;
-    background-image: url('/images/bg-boost-desktop.svg'); /* Reference your SVG file */
-    background-repeat: no-repeat; /* Prevents the image from repeating */
-    background-size: cover; /* Scales the image to cover the entire div area */
-    background-position: center; /* Centers the background image */
-   
+.Moderate-blue{
+color: var(--Moderate-blue);
 }
+
+
+
